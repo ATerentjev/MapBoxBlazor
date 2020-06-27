@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxrBlazor.Demo", "MapBoxrBlazor.Demo\MapBoxrBlazor.Demo.csproj", "{3935FAA8-419B-4027-BE95-63B8B2C2C3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxBlazor", "MapBoxBlazor\MapBoxBlazor.csproj", "{6AADC3C7-7736-4C3E-AFD6-41FF6600E5EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3935FAA8-419B-4027-BE95-63B8B2C2C3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3935FAA8-419B-4027-BE95-63B8B2C2C3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3935FAA8-419B-4027-BE95-63B8B2C2C3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3935FAA8-419B-4027-BE95-63B8B2C2C3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AADC3C7-7736-4C3E-AFD6-41FF6600E5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AADC3C7-7736-4C3E-AFD6-41FF6600E5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AADC3C7-7736-4C3E-AFD6-41FF6600E5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AADC3C7-7736-4C3E-AFD6-41FF6600E5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDC95F66-F04E-4870-8316-086F9C3D0134}
+	EndGlobalSection
+EndGlobal

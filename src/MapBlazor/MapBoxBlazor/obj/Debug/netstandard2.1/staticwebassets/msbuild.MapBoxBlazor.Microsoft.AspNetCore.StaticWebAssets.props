@@ -1,0 +1,11 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\**">
+      <SourceType>Package</SourceType>
+      <SourceId>MapBoxBlazor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MapBoxBlazor</BasePath>
+      <RelativePath>%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

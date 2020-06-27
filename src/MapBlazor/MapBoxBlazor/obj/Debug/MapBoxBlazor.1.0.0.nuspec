@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MapBoxBlazor</id>
+    <version>1.0.0</version>
+    <authors>MapBoxBlazor</authors>
+    <owners>MapBoxBlazor</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>The library for using MapBox from Blazor.
+It is test version</description>
+    <tags>MapBox, Blazor</tags>
+    <repository url="https://github.com/ATerentjev/MapBoxBlazor" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.AspNetCore.Components" version="3.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\bin\Debug\netstandard2.1\MapBoxBlazor.dll" target="lib\netstandard2.1\MapBoxBlazor.dll" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.MapBoxBlazor.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.build.MapBoxBlazor.props" target="build\MapBoxBlazor.props" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.buildMultiTargeting.MapBoxBlazor.props" target="buildMultiTargeting\MapBoxBlazor.props" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\obj\Debug\netstandard2.1\staticwebassets\msbuild.buildTransitive.MapBoxBlazor.props" target="buildTransitive\MapBoxBlazor.props" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\wwwroot\background.png" target="staticwebassets\background.png" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\wwwroot\dist\MapBoxBlazor.css" target="staticwebassets\dist\MapBoxBlazor.css" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\wwwroot\dist\MapBoxBlazor.js" target="staticwebassets\dist\MapBoxBlazor.js" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\wwwroot\exampleJsInterop.js" target="staticwebassets\exampleJsInterop.js" />
+    <file src="D:\mapBlazor\MapBlazor\src\MapBlazor\MapBoxBlazor\wwwroot\styles.css" target="staticwebassets\styles.css" />
+  </files>
+</package>

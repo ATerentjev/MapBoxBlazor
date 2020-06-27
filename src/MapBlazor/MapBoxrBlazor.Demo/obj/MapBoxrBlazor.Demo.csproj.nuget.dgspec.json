@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxrBlazor.Demo\\MapBoxrBlazor.Demo.csproj": {}
+  },
+  "projects": {
+    "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\MapBoxBlazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\MapBoxBlazor.csproj",
+        "projectName": "MapBoxBlazor",
+        "projectPath": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\MapBoxBlazor.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.devexpress.com/58wkDOCXBfULCowoGfdrZRaPjtZi9bdlcXg3O1Bn2yltjJU4MZ/api": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxrBlazor.Demo\\MapBoxrBlazor.Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxrBlazor.Demo\\MapBoxrBlazor.Demo.csproj",
+        "projectName": "MapBoxrBlazor.Demo",
+        "projectPath": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxrBlazor.Demo\\MapBoxrBlazor.Demo.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxrBlazor.Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.devexpress.com/58wkDOCXBfULCowoGfdrZRaPjtZi9bdlcXg3O1Bn2yltjJU4MZ/api": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\MapBoxBlazor.csproj": {
+                "projectPath": "D:\\mapBlazor\\MapBlazor\\src\\MapBlazor\\MapBoxBlazor\\MapBoxBlazor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
