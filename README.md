@@ -15,6 +15,8 @@ Add @using MapBoxBlazor in main _Imports.razor
 
 @using MapBoxBlazor
 Usage
+
 MapBoxBlazor components are self-supporting.
+
 
 <MapBoxView></MapBoxView>
