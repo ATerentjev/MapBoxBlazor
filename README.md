@@ -13,3 +13,10 @@ dotnet add package MapBoxBlazor
 _Imports.razor
 
 Add @using MapBoxBlazor in main _Imports.razor
+
+MapBoxBlazor components are self-supporting.
+
+Usage
+
+<MapBoxView></MapBoxView>
+
